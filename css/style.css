@@ -1,0 +1,72 @@
+
+body
+{
+	margin: 0px;
+	background-color: #193549;
+	text-align: center;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+section
+{
+	float:left;
+	width:100%;
+}
+
+/**************** Header ****************/
+
+header
+{
+	float:left;
+	width:100%;
+}
+
+h2, .hl
+{
+	font-size: 50px;
+}
+
+:root
+{
+	--base: #ffc600;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+img 
+{
+	padding: var(--spacing);
+	background: var(--base);
+	filter: blur(var(--blur));
+}
+
+.h1
+{
+	color: var(--base);
+}
+
+.controls 
+{
+	margin-bottom: 50px;
+}
+
+a 
+{
+	color: var(--base);
+	text-decoration: none;
+}
+
+input, input[type=range] 
+{
+	display:inline-block;
+	width: 100px;
+}
+
+label
+{
+	font-weight:100;
+}
+
